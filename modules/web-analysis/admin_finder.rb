@@ -4,7 +4,7 @@
 # Admin Login Page Finder
 # Written by Aris Kurniawan (akaig) - @0xffHack
 # Check on https://github.com/sharesec/sharesploit
-# I found wordlist on here: https://github.com/the-c0d3r/admin-finder/blob/master/wordlist.txt (*credit)
+# I found and used the wordlist on here: https://github.com/the-c0d3r/admin-finder/blob/master/wordlist.txt (*credit)
 ##
 
 require 'net/http'
