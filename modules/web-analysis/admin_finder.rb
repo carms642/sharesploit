@@ -17,6 +17,7 @@ def banner
 	puts "Usage: admin_finder.rb <URL address> <path/to/dictionary/admin.txt>"
 end
 
+_USER_AGENT_ = "iceweasel" # Kali Linux Default Browser
 $time = Time.new
 $url, $dic = ARGV[0], ARGV[1]
 
@@ -43,6 +44,8 @@ if ARGV.length == 2
 				headers = Net::HTTP.new($url).get('/'+attack)  
 				if headers.code == '200'
 					puts Notif.ok+" Found: #{$url}/#{attack}"
+					# visit & check
+					system("#{_USER_AGENT_} #{$url}/#{attack}")
 				elsif headers.code == '404'
 					puts Notif.fail+" Not Found: #{$url}/#{attack}"
 				elsif headers.code == '403'
