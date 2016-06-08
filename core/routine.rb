@@ -20,12 +20,12 @@ begin
 			SharesploitMenu.banner
 		elsif stdin == "use\n"
 			puts Notif.proc+" Usage: use <module>"
-		##################################################
+		############## this is module choicer ############
 		elsif stdin == "use mysql_brute\n"
 			SharesploitModules.looping("mysql_brute")
 		elsif stdin == "use admin_finder\n"
 			SharesploitModules.looping("admin_finder")
-    ##################################################
+		##################################################
 		elsif stdin == "back\n" 
 			puts Notif.warning+" Please select module first"
 		elsif stdin == "run\n" 
