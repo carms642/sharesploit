@@ -48,11 +48,14 @@ if ARGV.length == 3
 			puts Notif.ok+" Login successful using password: "+$attack
  			puts Notif.ok+" MySQL database version detected: "+$con.get_server_info
 			puts
+
+			# mapping DBS
 			puts " @databases = {"
 			$con.list_dbs.each do |remote_database|
-			puts "               '"+remote_database+"'"
+				puts "               '"+remote_database+"'"
 			end
 			puts "              };"
+
 			puts
 			puts Notif.proc+" MySQL bruteforce finished at #{$time}"
 			exit 1
