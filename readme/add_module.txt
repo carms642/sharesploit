@@ -1,0 +1,4 @@
+1. Add module to /core/menu.rb
+2. Add module to /core/routine.rb
+3. Add module to all script and file on /lib
+4. Put module to /module, format /category/script.rb
