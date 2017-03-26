@@ -2,8 +2,7 @@
 #
 ##
 # Admin Login Page Finder
-# Written by Aris Kurniawan (akaig) - @0xffHack
-# Check on https://github.com/sharesec/sharesploit
+# Written by Aris Kurniawan
 # I found and used the wordlist on here: https://github.com/the-c0d3r/admin-finder/blob/master/wordlist.txt (*credit)
 ##
 
@@ -12,8 +11,7 @@ require 'time'
 require './core/notif'
 
 def banner
-	puts "Admin login page finder v1 by Aris Kurniawan (akai9)"
-	puts "         Follow me on twitter: @0xffHack"
+	puts "Admin login page finder v1 by Aris Kurniawan"
 	puts "Usage: admin_finder.rb <URL address> <path/to/dictionary/admin.txt>"
 end
 
