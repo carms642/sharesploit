@@ -1,7 +1,7 @@
 <h2> The ShareSploit Framework (SSF) v0.1 alpha </h2>
 <h3> Codename: 'gollum' </h3>
 <h3> Written by: Aris Kurniawan (kanopike) </h3>
-<h3> Follow on Twitter @0xffHack </h3><br><br>
+<h3> Follow on Twitter @kanopike </h3><br><br>
 
 <h4> 1) Require? </h4>
 - Install Ruby on your Linux manchine, guide on https://www.ruby-lang.org/en/documentation/installation/<br>
