@@ -14,7 +14,7 @@ begin
 	#                                     #
 	#            Created by:              #
 	#                                     #
-	#      Aris Kurniawan (akaig)         #
+	#      Aris Kurniawan (kanopike)      #
 	#                                     #
 	#######################################
 	SharesploitAdd.user
