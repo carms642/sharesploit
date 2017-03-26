@@ -2,7 +2,7 @@
 #
 # Module name: MySQL bruteforcer
 #
-# Author: Aris Kurniawan (akaig) - Twitter: @0xffHack
+# Author: Aris Kurniawan
 #
 # This script merged with ShareSploit-Framework/modules
 #
@@ -16,7 +16,6 @@ require './core/notif'
 def banner
 	$app = __FILE__
 	puts "MySQL bruteforcer v1"
-	puts "Written by Aris Kurniawan (akaig) - Follow Twitter @0xffHack"
 	puts ""
 	puts "Usage: ruby #{$app} [user] [host] [path/to/wordlist.txt]"
 	#
